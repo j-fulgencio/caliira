@@ -1,0 +1,112 @@
+body {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    background-color: white;
+}
+
+h1 {
+    font-weight: 350;
+    font-style: normal;
+    /* text-align: right; */
+    color: #102445;
+    }
+
+h2 {
+    font-weight: 300;
+    font-style: normal;
+    /* text-align: right; */
+    color: #102445;
+    }
+
+
+.caliira-splash {
+    background: linear-gradient(
+    -45deg,
+    #102445,
+    #006B52
+    );
+    color: white;
+}
+
+.super-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    padding: 10px;
+}
+
+.feature-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    max-width: 80%;
+}
+
+.container-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* padding: 1rem; */
+    gap: 10px;
+}
+
+.offering-detail {
+    /* display: flex; */
+    background-color: yellow;
+
+}
+
+.card-group {
+    gap: 10px;
+}
+
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-card {
+    background-color: #102445;
+    padding: 25px;
+}
+
+.footer-bg {
+    background-color: #102445;
+    color: white;
+}
+
+.icon-gradient {
+    background: linear-gradient(
+    180deg,
+    #10244599,
+    #102445);
+}
+
+/* .navbar {
+    background-color: #F8FBF0 !important;
+} */
+
+.navbar-nav > li > a {
+padding: 0;
+margin: 0;
+}
+
+.text-body-secondary > li > a {
+    color: white !important;
+}
+
+#tagline-end {
+    text-align: right;
+    font-weight: 100;
+    font-size: x-large;
+}
+
+#header-text {
+    font-
+}
