@@ -48,10 +48,26 @@ p {
     color: white;
 }
 
-.custom-button {
+.custom-filled-button {
     background-color: #006B52 !important;
     border-color: #006B52 !important;
 }
+
+.custom-filled-button:hover {
+    background-color: white !important;
+    color: #006B52 !important;
+}
+
+.custom-outline-button {
+    border-color: #006B52 !important;
+    color: #006B52 !important;
+}
+
+.custom-outline-button:hover {
+    background-color: #006B52 !important;
+    color: white !important;
+}
+
 
 .copyright-text {
     color: white;
