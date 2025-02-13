@@ -181,3 +181,30 @@ margin: 0;
     font-weight: 100;
     font-size: x-large;
 }
+
+
+/* New Stuff */
+.connectionsWrapper {
+    border: 1px solid lightgray;
+    padding: 5px 10px 10px;
+    background: white;
+    box-shadow: 0 1px 20px rgba(0, 0, 0, 0.12);
+  }
+  
+  .connectionsWrapper .header {
+    position:absolute;
+    margin-top:-30px;
+    margin-left:-5px;
+    margin-right: 0px;
+    color: #102445;
+    background: white;
+    border-top-left-radius:30px;
+    border-top-right-radius: 30px;
+    padding: 8px 3px 8px 10px;
+    box-shadow: 0 1px 20px rgba(255, 255, 255, 0.9);
+  }
+
+  .connectionsWrapper ul {
+    margin-left: 0.3rem;
+    margin-top: 1rem;
+  }
